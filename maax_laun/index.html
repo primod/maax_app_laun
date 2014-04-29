@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title> CRM,ERP and custom application platform - maaxframe</title>
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <script src="assets/js/jquery-min.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                    <form class="form-horizontal">
+                        <fieldset>
+                            
+                            <div id="legend">
+                                <legend class="">MaaxFrame</legend>
+                            </div>
+
+                            <!-- Name -->
+                            <div class="control-group">
+                                <div class="row">
+                                <label class="control-label"  for="username">Confirm your Instance</label>
+                                </div>
+                                <div class="row">
+                              
+                                    <input style="width: 320px" type="text" id="url" name="username" placeholder="" class="input-large" value="http://app.maaxframe.com/uat/">
+                            
+                                </div>
+                            </div>
+                            <!-- Submit -->
+                            <div class="control-group">
+                                
+                                    <button class="btn btn-success " type="button" >Next</button>
+                                
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="span6">
+                    <img src="assets/img/freetrial.jpg"  alt="" class="img-rounded" align="center">
+                </div>
+            </div>
+        </div>
+    </body>
+ <script>
+            $(document).ready(function() {
+                $("button").click(function() {
+                    window.open($('#url').val(), '_self');
+                    event.preventDefault();
+                });
+                //  window.open('http://app.maaxframe.com/uat/', '_blank');
+
+            });
+
+        </script>
+
+
+
+</html>
