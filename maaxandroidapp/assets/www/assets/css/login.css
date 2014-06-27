@@ -1,0 +1,271 @@
+@import url('http://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700');
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+@import url('animate.css');
+
+/* ====================================== */
+body {
+    background-color: #2a94d6;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica Neue Regular", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #586064;
+}
+
+a {
+    color: #0B7AAE;
+}
+
+a {
+    text-decoration: none;
+}
+
+#login {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 823px;
+    padding: 100px;
+}
+
+#login_wrapper {
+    background-color: #ffffff;
+    min-width: 280px;
+    min-height: 417px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.40);
+    -moz-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.40);
+    -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.40);
+    background: -ms-linear-gradient(top, #fafafa 0%, #e5e5e5 100%);
+    background: -moz-linear-gradient(top, #fafafa 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#e5e5e5));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e5e5e5',GradientType=0 );
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    overflow: hidden;
+}
+
+#left_side {
+    float: left;
+    width: 320px;
+}
+
+#logo_wrapper {
+    max-height: 120px;
+    overflow: hidden;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    line-height: 130px;
+    text-align: center;
+}
+
+#logo {
+    padding-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+
+input:focus {
+    outline: none;
+    color: #474848;
+}
+#loginwidget {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginbox_container, .loginError {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clrField {
+    display: none;
+    margin-top: 20px;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    float: right;
+    text-align: center;
+    vertical-align: center;
+    font-size: 10pt;
+    cursor: hand;
+    cursor: pointer;
+    font-family: Arial;
+    background-image: url('/img/ico_cancel_clear.png');
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+#usrn {
+    margin-top: 15px;
+    padding: 12px 0px 12px 12px;
+    background-color: #f3f5f6;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 3px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius: 3px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.zen-assistiveText {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.input, input[type="password"],input[type="email"]  {
+    background-color: #F3F5F6;
+    border: none;
+    color: #586064;
+    font-size: 13px;
+    margin-left: 0;
+    margin-top: 3px;
+    width: 230px;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle;
+    line-height: normal;
+
+}
+
+
+
+#pswd {
+    padding: 12px 0px 12px 12px;
+    background-color: #f3f5f6;
+    border: 1px solid #CCC;
+    margin-top: -1px;
+    -webkit-border-radius: 3px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius: 3px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#Login1 {
+    margin-top: 15px;
+    width: 270px;
+}
+.button, .button, .btnPrimary, .btnPrimary {
+    background: -moz-linear-gradient(center bottom , #2789C7 0%, #3F9FD9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button, .button, .btnPrimary, .btnPrimary {
+    background: -moz-linear-gradient(center bottom , #2789C7 0%, #3F9FD9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+input.primary, .button, .btnPrimary {
+    background: none repeat scroll 0 0 #3198D8;
+    border: 1px solid #4176BA;
+}
+.button .label, .button, .btnPrimary {
+    background-color: #3198D8;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue Regular","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+input.primary, .button, .btnPrimary {
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    line-height: 22px;
+    padding: 7px 20px;
+}
+
+#rem {
+    color: #586064;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    margin-top: 18px;
+}
+
+#forgot {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.loginbox_container, .loginError {
+    margin: 0 auto;
+    width: 270px;
+}
+#right_side {
+    text-align: right;
+    vertical-align: top;
+}
+#right_side {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+}
+.right{
+    padding-right:50px;
+}
+#marketing {
+    border: 0 none;
+    height: 397px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 478px;
+}
+#footer, #footer a {
+    color: #FFFFFF;
+}
+#footer {
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    text-align: center;
+}
+.brand {
+    font-family: "Tahoma",Geneva,sans-serif;
+    color: #585858;
+    font-size: 35px;
+}
+label{
+display: inline;
+    font-size: 13px;
+}

@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: MaaxFrame-release.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '11'
+  targetSdkVersion: '16'
+packageInfo:
+  cur_package: com.primod.maaxframe
+  orig_package: com.primod.maaxframe
+compressionType: false

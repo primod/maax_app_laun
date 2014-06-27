@@ -13,25 +13,25 @@
         Customer relationship model (CRM)- MaaxFrame.com
     </description>
 
-    <author href="https://build.phonegap.com" email="dsingh@primarymodules.com">
+    <author href="https://build.phonegap.com" email="piyush@maaxframe.com">
         Tushar Takkar
     </author>
   
     <!-- icons for android devices only-->
     <icon src="icon.png" />
-    <icon src="assets/res/android/drawable-hdpi/ic_launcher.png"      gap:platform="android"    gap:density="hdpi" />
-    <icon src="assets/res/android/drawable-ldpi/ic_launcher.png"      gap:platform="android"    gap:density="ldpi" />
-    <icon src="assets/res/android/drawable-mdpi/ic_launcher.png"     gap:platform="android"    gap:density="mdpi" />
-    <icon src="assets/res/android/drawable-xhdpi/ic_launcher.png"   gap:platform="android"    gap:density="xhdpi" />
+    <icon src="res/android/drawable-hdpi/ic_launcher.png"      gap:platform="android"    gap:density="hdpi" />
+    <icon src="res/android/drawable-ldpi/ic_launcher.png"      gap:platform="android"    gap:density="ldpi" />
+    <icon src="res/android/drawable-mdpi/ic_launcher.png"     gap:platform="android"    gap:density="mdpi" />
+    <icon src="res/android/drawable-xhdpi/ic_launcher.png"   gap:platform="android"    gap:density="xhdpi" />
     
-    <icon src="assets/res/ios/icon-Small-50.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="assets/res/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="assets/res/ios/icon-Small-50@2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="assets/res/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
-    <icon src="assets/res/ios/icon.png"          gap:platform="webos" />
+    <icon src="res/ios/icon-Small-50.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="res/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="res/ios/icon-Small-50@2x.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="res/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/ios/icon.png"          gap:platform="webos" />
     
-    <icon src="assets/res/windows/icon-48.png"  gap:platform="winphone" />
-    <icon src="assets/res/windows/icon-144.png" gap:platform="winphone"   gap:role="background" />
+    <icon src="res/windows/icon-48.png"  gap:platform="winphone" />
+    <icon src="res/windows/icon-144.png" gap:platform="winphone"   gap:role="background" />
     <!-- allow local pages -->
 
    

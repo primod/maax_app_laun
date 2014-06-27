@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0.0" android:windowSoftInputMode="adjustPan" android:installLocation="1" package="com.primod.maaxframe"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="false" android:hardwareAccelerated="true">
+        <activity android:label="@string/app_name" android:name=".MaaxFrame" android:screenOrientation="unspecified" android:configChanges="locale|keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateUnspecified|adjustUnspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.phonegap.DroidGap">
+            <intent-filter />
+        </activity>
+    </application>
+</manifest>
